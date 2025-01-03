@@ -13,7 +13,7 @@ langchain>=0.0.130
 openai>=0.27.0
 transformers>=4.30.0
 torch>=2.0.0
-chromadb==0.6.0
+chromadb
 sentence-transformers>=2.2.2
 langgraph>=0.0.14
 langchain-openai>=0.0.5
