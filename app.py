@@ -2,7 +2,9 @@ import streamlit as st
 import os
 import json
 import re
-
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import io
 from docx import Document
 
