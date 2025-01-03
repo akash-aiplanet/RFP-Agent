@@ -18,3 +18,4 @@ sentence-transformers>=2.2.2
 langgraph>=0.0.14
 langchain-openai>=0.0.5
 langchain-core>=0.1.0
+pysqlite3-binary
